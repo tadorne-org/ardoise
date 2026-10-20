@@ -28,13 +28,15 @@
 
   /* --- Type --- */
   /* Display = Archivo, one variable face (wght 300–800, wdth 62–125),
-     three settings. Never in UI (nav, buttons, labels, forms use
-     --td-font-text). Brandbook v3.2 §11.
+     three settings. Text = Source Serif 4, light (--td-text-weight).
+     UI (nav, buttons, labels, forms, h3–h6) = Archivo, normal width,
+     via --td-font-ui. Brandbook v3.2 §11.
        maison & instrument names : wide (125), capitals, light, tracked
        editorial headings        : normal (100), sentence case, 500
        figures (racing, display) : condensed (62), 600–800, tabular */
   --td-font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
-  --td-font-text:    "Inter", "Helvetica Neue", Arial, sans-serif;
+  --td-font-text:    "Source Serif 4", "Iowan Old Style", Georgia, serif;
+  --td-font-ui:      "Archivo", "Helvetica Neue", Arial, sans-serif;
   --td-font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
   --td-display-weight:        500;  /* editorial headings */
   --td-display-weight-strong: 500;  /* maison wordmark */
@@ -44,6 +46,7 @@
   --td-wdth-normal:   100;
   --td-wdth-condensed: 62;
   --td-tracking-wide: 0.12em;       /* up to 0.34em for the wordmark */
+  --td-text-weight:   340;          /* Source Serif 4 on crème */
 
   /* --- Rhythm --- */
   --td-radius: 6px;          /* soft but technical; never pill-shaped */
@@ -77,6 +80,7 @@
     --td-brand:         var(--td-orange);
     --td-border:        #33383F;
     --td-code-bg:       #1A1E24;
+    --td-text-weight:   320;          /* light text on ink reads heavier */
   }
 }
 :root[data-theme="dark"] {
@@ -89,4 +93,5 @@
   --td-brand:         var(--td-orange);
   --td-border:        #33383F;
   --td-code-bg:       #1A1E24;
+  --td-text-weight:   320;          /* light text on ink reads heavier */
 }
