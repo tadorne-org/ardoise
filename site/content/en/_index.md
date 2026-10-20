@@ -12,6 +12,11 @@ params:
       - label: "Get in touch"
         url: "mailto:contact@tadorne.org?subject=Ardoise"
         solid: true
+  video:
+    src: "/video/ardoise-promo-en.mp4"
+    poster: "/video/ardoise-promo-en.webp"
+    label: "Animated exploded view of the Ardoise mast-foot display, then the end of a start countdown"
+    caption: "Exploded view, then the end of a countdown driven by the phone. Electronics coming soon; displayed values are illustrative."
   figures:
     - label: "Cable"
       value: "One"

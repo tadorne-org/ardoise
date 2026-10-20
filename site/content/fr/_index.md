@@ -12,6 +12,11 @@ params:
       - label: "Prendre contact"
         url: "mailto:contact@tadorne.org?subject=Ardoise"
         solid: true
+  video:
+    src: "/video/ardoise-promo-fr.mp4"
+    poster: "/video/ardoise-promo-fr.webp"
+    label: "Vue éclatée animée de l'afficheur Ardoise au pied d'un mât, puis fin d'un compte à rebours de départ"
+    caption: "Vue éclatée, puis la fin d'un compte à rebours piloté par le téléphone. Électronique à venir ; les valeurs affichées sont illustratives."
   figures:
     - label: "Câble"
       value: "Un seul"
