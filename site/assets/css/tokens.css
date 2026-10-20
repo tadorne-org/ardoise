@@ -27,17 +27,42 @@
   --td-code-bg:       #F3EBDA;
 
   /* --- Type --- */
-  /* Display = engraving serif, never below 28px and never in UI
-     (nav, buttons, labels, forms use --td-font-text). Brandbook v3.0 §11. */
-  --td-font-display: "Cormorant Garamond", "Iowan Old Style", Garamond, Georgia, serif;
+  /* Display = Archivo, one variable face (wght 300–800, wdth 62–125),
+     three settings. Never in UI (nav, buttons, labels, forms use
+     --td-font-text). Brandbook v3.2 §11.
+       maison & instrument names : wide (125), capitals, light, tracked
+       editorial headings        : normal (100), sentence case, 500
+       figures (racing, display) : condensed (62), 600–800, tabular */
+  --td-font-display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --td-font-text:    "Inter", "Helvetica Neue", Arial, sans-serif;
   --td-font-mono:    "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
-  --td-display-weight:        500;
-  --td-display-weight-strong: 600;
+  --td-display-weight:        500;  /* editorial headings */
+  --td-display-weight-strong: 500;  /* maison wordmark */
+  --td-display-weight-light:  300;  /* instrument names, large */
+  --td-figures-weight:        600;
+  --td-wdth-wide:     125;
+  --td-wdth-normal:   100;
+  --td-wdth-condensed: 62;
+  --td-tracking-wide: 0.12em;       /* up to 0.34em for the wordmark */
 
   /* --- Rhythm --- */
   --td-radius: 6px;          /* soft but technical; never pill-shaped */
   --td-measure: 64ch;        /* max line length for prose */
+}
+
+/* Archivo width settings, as classes (font-variation-settings is not
+   inherited piecewise, so each setting is a whole declaration). */
+.td-wide {
+  font-family: var(--td-font-display);
+  font-variation-settings: "wdth" var(--td-wdth-wide);
+  text-transform: uppercase;
+  letter-spacing: var(--td-tracking-wide);
+}
+.td-figures {
+  font-family: var(--td-font-display);
+  font-variation-settings: "wdth" var(--td-wdth-condensed);
+  font-weight: var(--td-figures-weight);
+  font-variant-numeric: tabular-nums;
 }
 
 /* Dark mode — ink water at night; orange stays legible (7.4:1 on ink) */
