@@ -1,0 +1,54 @@
+[skipToContent]
+other = "Aller au contenu"
+
+[mainNavigation]
+other = "Navigation principale"
+
+[languageSwitcher]
+other = "Langue"
+
+[table]
+other = "Tableau, défilement horizontal"
+
+[rssFeed]
+other = "Flux RSS"
+
+[readingTime]
+one = "{{ .count }} min de lecture"
+other = "{{ .count }} min de lecture"
+
+[parentLine]
+other = "Un instrument Tadorne"
+
+[latestLog]
+other = "Du journal"
+
+[allLog]
+other = "Toutes les notes"
+
+[footerNavigation]
+other = "Navigation"
+
+[footerSource]
+other = "Sources sur GitHub"
+
+[footerAuthenticity]
+other = "Authenticité"
+
+[footerKeyUid]
+other = "Clé GPG"
+
+[footerHowToVerify]
+other = "Comment vérifier une publication Tadorne"
+
+[footerNoTracking]
+other = "Aucune analytique, aucun cookie, aucune requête tierce."
+
+[footerLicence]
+other = "Les sources publiées le sont sous licences libres, instrument par instrument."
+
+[footerCopyright]
+other = "© {{ .year }} tadorne.org. Tous droits réservés."
+
+[notesTitle]
+other = "Ce qui guide Ardoise"
