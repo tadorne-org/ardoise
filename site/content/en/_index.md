@@ -5,7 +5,7 @@ description: "A mast-foot display for racing: the numbers that matter, large, re
 params:
   hero:
     eyebrow: "A Tadorne instrument"
-    lead: "Mast-foot display. The racing numbers, large, facing the cockpit, on one cable: the NMEA 2000 drop."
+    lead: "Mast-foot display. The racing numbers, facing the cockpit: NMEA 2000, Wi-Fi, Bluetooth."
     ctas:
       - label: "The instrument"
         url: "/project/"
@@ -27,7 +27,7 @@ params:
     - label: "Target reading distance"
       value: "3 to 6 m"
     - label: "Sources"
-      value: "NMEA 2000 · Signal K"
+      value: "NMEA 2000 · Signal K · Bluetooth LE"
     - label: "Status"
       value: "In development"
   notes:

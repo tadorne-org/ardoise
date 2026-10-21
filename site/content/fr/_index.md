@@ -5,7 +5,7 @@ description: "Afficheur de pied de mât pour la régate : les chiffres utiles, 
 params:
   hero:
     eyebrow: "Un instrument Tadorne"
-    lead: "Afficheur de pied de mât. Les chiffres de la régate, en gros, tournés vers le cockpit, sur un seul câble : la dérivation du bus NMEA 2000."
+    lead: "Afficheur de pied de mât. Les chiffres de la régate, face au cockpit : NMEA 2000, Wi-Fi, Bluetooth."
     ctas:
       - label: "L'instrument"
         url: "/fr/projet/"
@@ -27,7 +27,7 @@ params:
     - label: "Lecture visée"
       value: "3 à 6 m"
     - label: "Sources"
-      value: "NMEA 2000 · Signal K"
+      value: "NMEA 2000 · Signal K · Bluetooth LE"
     - label: "État"
       value: "En développement"
   notes:
