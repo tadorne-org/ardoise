@@ -12,6 +12,10 @@ params:
       - label: "Get in touch"
         url: "mailto:contact@tadorne.org?subject=Ardoise"
         solid: true
+  photo:
+    src: "/img/ardoise-mat.webp"
+    alt: "Ardoise display mounted at the foot of a mast, showing a start countdown, overcast sky"
+    caption: "Computer-generated image, not contractual"
   video:
     src: "/video/ardoise-sobre-en.mp4"
     poster: "/video/ardoise-sobre-en.webp"

@@ -17,6 +17,13 @@
     <div class="hero__art">{{ partial "mark.html" "" }}</div>
   </section>
 
+  {{ with .Params.photo }}
+  <figure class="photo home-photo">
+    <img src="{{ .src | relURL }}" alt="{{ .alt }}" width="1200" height="1283" loading="lazy" decoding="async">
+    {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+
   {{ with .Params.video }}
   <figure class="showreel">
     <video src="{{ .src | relURL }}" poster="{{ .poster | relURL }}" width="1920" height="1080"

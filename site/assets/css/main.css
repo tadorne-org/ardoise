@@ -705,6 +705,18 @@ table.prose-plain td { font-family: inherit; font-size: inherit; }
   color: var(--td-fg-muted);
 }
 
+/* --- Home photo ------------------------------------------ */
+
+.home-photo { margin-top: clamp(2rem, 4vw, 3rem); max-width: 34rem; margin-inline: auto; }
+.home-photo img { display: block; height: auto; }
+figure.home-photo figcaption {
+  margin-top: 0.4rem;
+  text-align: right;
+  font-family: var(--td-font-mono);
+  font-size: 0.7rem;
+  color: var(--td-fg-muted);
+}
+
 /* --- Buttons ---------------------------------------------- */
 
 .btn {

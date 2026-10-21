@@ -12,6 +12,10 @@ params:
       - label: "Prendre contact"
         url: "mailto:contact@tadorne.org?subject=Ardoise"
         solid: true
+  photo:
+    src: "/img/ardoise-mat.webp"
+    alt: "Afficheur Ardoise fixé au pied d'un mât, affichant un compte à rebours de départ, ciel couvert"
+    caption: "Image de synthèse, non contractuelle"
   video:
     src: "/video/ardoise-sobre-fr.mp4"
     poster: "/video/ardoise-sobre-fr.webp"
