@@ -19,8 +19,6 @@ timeZone = "Europe/Paris"
   gpgFingerprint = "5420 08E3 53EC A628 B4D6  ACAD 8C03 243A FF69 5BF7"
   gpgUid = "Tadorne <contact@tadorne.org>"
   gpgURL = "https://tadorne.org/verify/"
-  # Public repository: site source and published design files.
-  sourceURL = "https://github.com/tadorne-org/ardoise"
   # Social card. Raster, not SVG: X and most scrapers refuse SVG previews.
   ogImage = "/img/og-default.png"
   ogImageWidth = 1200
@@ -67,10 +65,6 @@ timeZone = "Europe/Paris"
         pageRef = "/roadmap"
         weight = 20
       [[languages.en.menus.main]]
-        name = "Log"
-        pageRef = "/log"
-        weight = 35
-      [[languages.en.menus.main]]
         name = "About"
         pageRef = "/about"
         weight = 50
@@ -94,10 +88,6 @@ timeZone = "Europe/Paris"
         name = "Feuille de route"
         pageRef = "/feuille-de-route"
         weight = 20
-      [[languages.fr.menus.main]]
-        name = "Journal"
-        pageRef = "/journal"
-        weight = 35
       [[languages.fr.menus.main]]
         name = "À propos"
         pageRef = "/a-propos"
