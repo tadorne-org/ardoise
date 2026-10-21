@@ -21,6 +21,11 @@ params:
     poster: "/video/ardoise-sobre-en.webp"
     label: "Animated exploded view of the Ardoise mast-foot display, then the end of a start countdown"
     caption: "Exploded view, then a start countdown, then the boat speed and heading, mirrored on the phone. Electronics coming soon; displayed values are illustrative."
+  demo:
+    src: "/video/ardoise-demo-en.mp4"
+    poster: "/video/ardoise-demo-en.webp"
+    label: "Ardoise display demonstration: self-test, then the start, upwind, downwind, wind and compass pages"
+    caption: "What the display shows, in real time: the self-test, then a start, upwind, downwind and wind, replayed, and the compass, measured. Electronics coming soon; displayed values are illustrative and the compass movement is simulated."
   figures:
     - label: "Cable"
       value: "One"

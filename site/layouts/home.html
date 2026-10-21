@@ -33,6 +33,15 @@
   </figure>
   {{ end }}
 
+  {{ with .Params.demo }}
+  <figure class="showreel">
+    <video src="{{ .src | relURL }}" poster="{{ .poster | relURL }}" width="1920" height="1080"
+           muted playsinline controls preload="none"
+           {{ with .label }}aria-label="{{ . }}"{{ end }}></video>
+    {{ with .caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+  </figure>
+  {{ end }}
+
   {{ with .Params.figures }}
   <dl class="figures">
     {{- range . }}

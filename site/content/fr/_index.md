@@ -21,6 +21,11 @@ params:
     poster: "/video/ardoise-sobre-fr.webp"
     label: "Vue éclatée animée de l'afficheur Ardoise au pied d'un mât, puis fin d'un compte à rebours de départ"
     caption: "Vue éclatée, puis un compte à rebours de départ, puis vitesse et cap, relayés sur le téléphone. Électronique à venir ; les valeurs affichées sont illustratives."
+  demo:
+    src: "/video/ardoise-demo-fr.mp4"
+    poster: "/video/ardoise-demo-fr.webp"
+    label: "Démonstration de l'écran d'Ardoise : autotest, puis pages départ, près, portant, vent et compas"
+    caption: "Ce qu'affiche l'écran, en temps réel : l'autotest, puis un départ, le près, le portant et le vent, rejoués, et le compas, mesuré. Électronique à venir ; les valeurs affichées sont illustratives et le mouvement du compas est simulé."
   figures:
     - label: "Câble"
       value: "Un seul"
