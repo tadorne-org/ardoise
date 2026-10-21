@@ -3,6 +3,9 @@ title: "Feuille de route"
 translationKey: roadmap
 url: /fr/feuille-de-route/
 type: roadmap
+build:
+  render: never
+  list: never
 description: "Sept jalons, publiés au fur et à mesure."
 params:
   milestones:

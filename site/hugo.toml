@@ -61,10 +61,6 @@ timeZone = "Europe/Paris"
         pageRef = "/project"
         weight = 10
       [[languages.en.menus.main]]
-        name = "Roadmap"
-        pageRef = "/roadmap"
-        weight = 20
-      [[languages.en.menus.main]]
         name = "About"
         pageRef = "/about"
         weight = 50
@@ -84,10 +80,6 @@ timeZone = "Europe/Paris"
         name = "Instrument"
         pageRef = "/projet"
         weight = 10
-      [[languages.fr.menus.main]]
-        name = "Feuille de route"
-        pageRef = "/feuille-de-route"
-        weight = 20
       [[languages.fr.menus.main]]
         name = "À propos"
         pageRef = "/a-propos"

@@ -3,6 +3,9 @@ title: "Roadmap"
 translationKey: roadmap
 url: /roadmap/
 type: roadmap
+build:
+  render: never
+  list: never
 description: "Seven milestones, published as they land."
 params:
   milestones:
