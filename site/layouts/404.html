@@ -1,0 +1,13 @@
+{{ define "main" }}
+  {{- $fr := eq .Site.Language.Lang "fr" }}
+  <article>
+    <header class="page-head">
+      <p class="eyebrow">404</p>
+      <h1>{{ cond $fr "Page introuvable" "Page not found" }}</h1>
+      <p class="page-head__lead">{{ cond $fr "Cette adresse n'existe pas, ou plus." "This address does not exist, or no longer does." }}</p>
+    </header>
+    <div class="prose">
+      <p><a href="{{ .Site.Home.RelPermalink }}">{{ cond $fr "Retour à l'accueil" "Back to the home page" }}</a></p>
+    </div>
+  </article>
+{{ end }}
