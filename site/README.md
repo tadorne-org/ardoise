@@ -71,8 +71,7 @@ site (`<meta name="robots" content="noindex, nofollow">` sur chaque page et
 ## Déploiement
 
 `hugo --minify` produit un `public/` statique — n'importe quel hébergeur
-statique convient. `netlify.toml` est fourni.
-Sur Netlify, le répertoire de base (*Base directory*) est `site`.
+statique convient.
 
 `baseURL` vaut `https://ardoise.tadorne.org/` ; le surcharger au besoin avec
 `hugo --baseURL https://exemple/`.
