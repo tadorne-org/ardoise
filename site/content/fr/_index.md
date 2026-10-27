@@ -20,7 +20,7 @@ params:
     src: "/video/ardoise-sobre-fr.mp4"
     poster: "/video/ardoise-sobre-fr.webp"
     label: "Vue éclatée animée de l'afficheur Ardoise au pied d'un mât, puis fin d'un compte à rebours de départ"
-    caption: "Vue éclatée, puis un compte à rebours de départ, puis vitesse et cap, relayés sur le téléphone. Électronique à venir ; les valeurs affichées sont illustratives."
+    caption: "Rendu 3D d'après la CAO — vue éclatée, puis un compte à rebours de départ, puis vitesse et cap, relayés sur le téléphone. Électronique à venir ; les valeurs affichées sont illustratives."
   demo:
     src: "/video/ardoise-demo-fr.mp4"
     poster: "/video/ardoise-demo-fr.webp"
