@@ -50,5 +50,11 @@ other = "Les sources publiées le sont sous licences libres, instrument par inst
 [footerCopyright]
 other = "© {{ .year }} tadorne.org. Tous droits réservés."
 
+[footerLegal]
+other = "Mentions légales"
+
+[footerLegalURL]
+other = "https://tadorne.org/fr/mentions-legales/"
+
 [notesTitle]
 other = "Ce qui guide Ardoise"
