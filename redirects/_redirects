@@ -1,0 +1,17 @@
+# ardoise.tadorne.org -> tadorne.org/ardoise/ (redirections permanentes).
+# La première règle qui correspond s'applique.
+/                      https://tadorne.org/ardoise/                301
+/project               https://tadorne.org/ardoise/project/        301
+/project/              https://tadorne.org/ardoise/project/        301
+/about                 https://tadorne.org/about/                  301
+/about/                https://tadorne.org/about/                  301
+/fr                    https://tadorne.org/fr/ardoise/             301
+/fr/                   https://tadorne.org/fr/ardoise/             301
+/fr/projet             https://tadorne.org/fr/ardoise/projet/      301
+/fr/projet/            https://tadorne.org/fr/ardoise/projet/      301
+/fr/a-propos           https://tadorne.org/fr/a-propos/            301
+/fr/a-propos/          https://tadorne.org/fr/a-propos/            301
+/img/*                 https://tadorne.org/ardoise/img/:splat      301
+/video/*               https://tadorne.org/ardoise/video/:splat    301
+/fr/*                  https://tadorne.org/fr/ardoise/             301
+/*                     https://tadorne.org/ardoise/                301
